@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abogado Herencias Barcelona | Expertos | 684 23 32 75</title>
+<style>
+  :root{
+    --ink:#0A0F1A;
+    --ink-2:#111A2B;
+    --ink-3:#182338;
+    --paper:#F4EFE3;
+    --gold:#A6813D;
+    --gold-light:#D9BC7C;
+    --wine:#8C3B44;
+    --wine-light:#C98A90;
+    --line:rgba(244,239,227,0.13);
+    --line-soft:rgba(244,239,227,0.08);
+    --text-soft:rgba(244,239,227,0.68);
+    --font-display:'Fraunces', Georgia, serif;
+    --font-accent:'Cormorant Garamond', Georgia, serif;
+    --font-body:'Inter', Arial, sans-serif;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Cormorant+Garamond:ital,wght@0,500;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap');
+
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:var(--font-body);
+    background:var(--ink);
+    color:var(--paper);
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+    position:relative;
+  }
+  body::before{
+    content:"";
+    position:fixed; inset:0; z-index:0; pointer-events:none;
+    opacity:0.05; mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  a{color:inherit; text-decoration:none;}
+  img,svg{display:block;}
+  .wrap{max-width:1120px; margin:0 auto; padding:0 24px; position:relative; z-index:1;}
+
+  @media (prefers-reduced-motion: reduce){
+    *{transition:none !important; animation:none !important;}
+  }
+
+  .reveal{opacity:0; transform:translateY(16px); transition:opacity .7s ease, transform .7s ease;}
+  .reveal.in-view{opacity:1; transform:none;}
+
+  /* Sticky call bar */
+  .callbar{
+    position:fixed; top:0; left:0; right:0; z-index:100;
+    background:rgba(10,15,26,0.92);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);
+  }
+  .callbar-inner{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:14px 24px; max-width:1120px; margin:0 auto;
+  }
+  .brand{
+    display:flex; align-items:center; gap:10px;
+    font-family:var(--font-display); font-weight:600; font-size:17px;
+    letter-spacing:0.01em;
+  }
+  .brand .crest{width:26px; height:26px; color:var(--gold-light); flex-shrink:0;}
+  .brand span{color:var(--gold-light); font-weight:400; font-style:italic;}
+  .callbar-btn{
+    display:flex; align-items:center; gap:9px;
+    background:var(--gold);
+    color:var(--ink);
+    font-weight:700;
+    font-size:14.5px;
+    padding:10px 18px;
+    border:1px solid rgba(10,15,26,0.15);
+    transition:background 0.2s ease, transform 0.2s ease;
+    white-space:nowrap;
+  }
+  .callbar-btn:hover{background:var(--gold-light); transform:translateY(-1px);}
+  .callbar-btn svg{width:15px; height:15px; flex-shrink:0;}
+
+  /* Hero */
+  .hero{
+    padding:152px 0 88px;
+    position:relative;
+    overflow:hidden;
+    background:
+      radial-gradient(ellipse 900px 520px at 88% -8%, rgba(166,129,61,0.16), transparent 62%),
+      var(--ink);
+  }
+  .hero-watermark{
+    position:absolute; top:-90px; right:-110px; width:640px; height:640px;
+    color:var(--gold); opacity:0.055; pointer-events:none; z-index:0;
+  }
+  .hero-content{position:relative; z-index:1;}
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:10px;
+    font-size:12.5px; letter-spacing:0.16em; text-transform:uppercase;
+    color:var(--gold-light);
+    font-weight:600;
+    margin-bottom:30px;
+  }
+  .eyebrow::before{content:""; width:30px; height:1px; background:var(--gold-light);}
+  h1{
+    font-family:var(--font-display);
+    font-weight:700;
+    font-size:clamp(56px, 11vw, 122px);
+    line-height:0.95;
+    letter-spacing:-0.015em;
+    max-width:1040px;
+  }
+  h1 em{font-style:italic; font-weight:500; color:var(--gold-light);}
+  .hero-sub{
+    font-size:18.5px;
+    color:var(--text-soft);
+    max-width:560px;
+    margin-top:30px;
+    font-weight:400;
+  }
+  .hero-actions{
+    margin-top:46px;
+    display:flex; flex-wrap:wrap; align-items:center; gap:26px;
+  }
+  .call-cta{
+    display:inline-flex; align-items:center; gap:16px;
+    background:var(--gold);
+    color:var(--ink);
+    padding:19px 30px;
+    border:1px solid rgba(10,15,26,0.18);
+    font-weight:700;
+    transition:transform 0.18s ease, background 0.2s ease, box-shadow 0.2s ease;
+    box-shadow:0 16px 40px -16px rgba(166,129,61,0.55);
+  }
+  .call-cta:hover{background:var(--gold-light); transform:translateY(-2px); box-shadow:0 20px 46px -14px rgba(166,129,61,0.65);}
+  .call-cta .num{font-size:25px; font-family:var(--font-display); font-weight:700; letter-spacing:0.005em;}
+  .call-cta .label{display:block; font-size:11px; text-transform:uppercase; letter-spacing:0.1em; font-weight:600; opacity:0.78;}
+  .call-cta svg{width:24px; height:24px; flex-shrink:0;}
+  .hero-note{font-size:13.5px; color:var(--text-soft); letter-spacing:0.01em;}
+  .hero-note strong{color:var(--paper); font-weight:600;}
+
+  /* trust strip */
+  .trust{border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:26px 0; position:relative; z-index:1;}
+  .trust .wrap{display:flex; flex-wrap:wrap; gap:0;}
+  .trust-item{
+    font-size:12.5px; color:var(--text-soft);
+    display:flex; align-items:center; gap:9px;
+    padding:6px 30px 6px 0; margin-right:30px;
+    border-right:1px solid var(--line-soft);
+  }
+  .trust-item:last-child{border-right:none; margin-right:0;}
+  .trust-item b{color:var(--paper); font-weight:600;}
+  .trust-item svg{width:16px; height:16px; color:var(--gold-light); flex-shrink:0;}
+
+  /* Sections */
+  section{padding:112px 0; position:relative; z-index:1;}
+  .section-head{max-width:640px; margin-bottom:58px;}
+  .kicker{
+    font-size:12.5px; letter-spacing:0.16em; text-transform:uppercase;
+    color:var(--gold-light); font-weight:600; margin-bottom:18px;
+    display:flex; align-items:center; gap:10px;
+  }
+  .kicker::before{content:""; width:22px; height:1px; background:var(--gold-light);}
+  h2{
+    font-family:var(--font-display);
+    font-weight:600;
+    font-size:clamp(32px, 4.4vw, 45px);
+    line-height:1.08;
+  }
+  .section-lead{color:var(--text-soft); font-size:16px; margin-top:16px; max-width:520px;}
+
+  /* Practice areas */
+  .areas{display:grid; grid-template-columns:repeat(3, 1fr); gap:1px; background:var(--line); border:1px solid var(--line);}
+  .area{background:var(--ink); padding:38px 32px; position:relative; transition:background 0.25s ease;}
+  .area::before{
+    content:""; position:absolute; top:0; left:0; right:0; height:2px;
+    background:var(--gold); transform:scaleX(0); transform-origin:left;
+    transition:transform 0.35s ease;
+  }
+  .area:hover{background:var(--ink-2);}
+  .area:hover::before{transform:scaleX(1);}
+  .area-num{
+    font-family:var(--font-accent); font-style:italic; font-weight:500; font-size:16px;
+    color:var(--gold-light); margin-bottom:20px; display:block;
+  }
+  .area h3{font-family:var(--font-display); font-size:20px; font-weight:600; margin-bottom:12px;}
+  .area p{font-size:14.5px; color:var(--text-soft); line-height:1.65;}
+
+  /* Process */
+  .process-wrap{display:grid; grid-template-columns:1fr 1fr; gap:64px; align-items:start;}
+  .steps{list-style:none;}
+  .step{display:flex; gap:24px; padding:27px 0; border-bottom:1px solid var(--line);}
+  .step:first-child{padding-top:0;}
+  .step-mark{font-family:var(--font-accent); font-style:italic; font-weight:500; font-size:23px; color:var(--gold-light); flex-shrink:0; width:36px;}
+  .step h4{font-size:16.5px; font-weight:600; margin-bottom:6px;}
+  .step p{font-size:14.5px; color:var(--text-soft);}
+
+  .callout-card{background:var(--ink-2); border:1px solid var(--line); padding:46px; position:relative;}
+  .callout-card::before{
+    content:"“"; font-family:var(--font-display); font-size:74px;
+    color:var(--wine-light); position:absolute; top:14px; left:30px; line-height:1; opacity:0.55;
+  }
+  .callout-card p{
+    font-family:var(--font-accent); font-style:italic; font-weight:500; font-size:23px; line-height:1.42;
+    margin-top:22px; position:relative;
+  }
+  .callout-card .who{margin-top:26px; font-size:13px; color:var(--text-soft); font-family:var(--font-body); font-style:normal;}
+
+  /* Banner */
+  .banner{background:linear-gradient(115deg, var(--gold) 0%, var(--gold-light) 100%); color:var(--ink); padding:74px 0; position:relative; z-index:1;}
+  .banner .wrap{display:flex; justify-content:space-between; align-items:center; gap:32px; flex-wrap:wrap;}
+  .banner h3{font-family:var(--font-display); font-weight:700; font-size:clamp(25px,3.3vw,35px); max-width:480px;}
+  .banner-call{
+    display:inline-flex; align-items:center; gap:14px;
+    background:var(--ink); color:var(--paper);
+    padding:19px 28px; font-weight:700; flex-shrink:0;
+    transition:transform 0.18s ease;
+  }
+  .banner-call:hover{transform:translateY(-2px);}
+  .banner-call svg{width:22px; height:22px;}
+  .banner-call .num{font-size:23px; font-family:var(--font-display);}
+  .banner-call .label{display:block; font-size:11px; text-transform:uppercase; letter-spacing:0.1em; color:var(--gold-light); font-weight:600;}
+
+  /* FAQ accordion */
+  .faq-item{border-bottom:1px solid var(--line);}
+  .faq-item summary{
+    list-style:none; cursor:pointer;
+    display:flex; align-items:center; justify-content:space-between; gap:20px;
+    padding:24px 0; font-size:16.5px; font-weight:600;
+    -webkit-tap-highlight-color:transparent;
+  }
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-mark{position:relative; width:16px; height:16px; flex-shrink:0; color:var(--gold-light);}
+  .faq-mark::before, .faq-mark::after{
+    content:""; position:absolute; background:currentColor; top:50%; left:50%;
+    transform:translate(-50%,-50%);
+  }
+  .faq-mark::before{width:14px; height:1.5px;}
+  .faq-mark::after{width:1.5px; height:14px; transition:transform 0.25s ease, opacity 0.25s ease;}
+  details[open] .faq-mark::after{transform:translate(-50%,-50%) rotate(90deg); opacity:0;}
+  details[open] .faq-mark{color:var(--wine-light);}
+  .faq-item p{font-size:14.5px; color:var(--text-soft); max-width:640px; padding-bottom:24px;}
+
+  /* Transparency disclosure */
+  .disclosure{
+    border:1px solid var(--line);
+    border-left:3px solid var(--wine);
+    background:var(--ink-2);
+    padding:34px 38px;
+    max-width:760px;
+  }
+  .disclosure p{font-size:14.5px; color:var(--text-soft); line-height:1.75;}
+  .disclosure strong{color:var(--paper);}
+
+  /* Footer */
+  footer{border-top:1px solid var(--line); padding:52px 0 42px; position:relative; z-index:1;}
+  .foot-inner{display:flex; justify-content:space-between; flex-wrap:wrap; gap:20px; align-items:center;}
+  .foot-inner .brand{font-size:15px;}
+  .foot-note{font-size:13px; color:var(--text-soft);}
+
+  /* Mobile call button */
+  .mobile-call{display:none;}
+
+  @media (max-width:860px){
+    .areas{grid-template-columns:1fr;}
+    .process-wrap{grid-template-columns:1fr;}
+    .banner .wrap{flex-direction:column; align-items:flex-start;}
+    .hero-watermark{width:440px; height:440px; top:-60px; right:-140px;}
+  }
+  @media (max-width:600px){
+    .hero{padding-top:128px;}
+    section{padding:76px 0;}
+    .callbar-btn .btn-text{display:none;}
+    .hero-watermark{display:none;}
+    .trust .wrap{flex-direction:column;}
+    .trust-item{border-right:none; border-bottom:1px solid var(--line-soft); padding:10px 0; margin-right:0; width:100%;}
+    .trust-item:last-child{border-bottom:none;}
+    .mobile-call{
+      display:flex; position:fixed; bottom:0; left:0; right:0; z-index:99;
+      background:var(--gold); color:var(--ink);
+      padding:16px 20px; align-items:center; justify-content:center; gap:10px;
+      font-weight:700; font-size:16.5px;
+      box-shadow:0 -8px 30px rgba(0,0,0,0.35);
+    }
+    .mobile-call svg{width:19px; height:19px;}
+    body{padding-bottom:64px;}
+  }
+
+  :focus-visible{outline:2px solid var(--gold-light); outline-offset:3px;}
+</style>
+</head>
+<body>
+
+<!-- Sticky top call bar -->
+<div class="callbar">
+  <div class="callbar-inner">
+    <div class="brand">
+      <svg class="crest" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="50" cy="50" r="39" fill="none" stroke="currentColor" stroke-width="0.7"/><g stroke="currentColor" stroke-width="1.1"><line x1="50" y1="5" x2="50" y2="11" transform="rotate(0 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(22.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(45 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(67.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(90 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(112.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(135 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(157.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(180 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(202.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(225 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(247.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(270 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(292.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(315 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(337.5 50 50)"/></g><g stroke="currentColor" stroke-width="1.1" fill="none" stroke-linecap="round"><path d="M35 26 v40 M65 26 v40" stroke-width="1.1"/><path d="M30 26 h10 M60 26 h10" stroke-width="1.1"/><path d="M35 66 h-8 M35 66 h8 M65 66 h-8 M65 66 h8" stroke-width="1.1"/><circle cx="50" cy="46" r="9" fill="none" stroke-width="1"/></g></svg>
+      Abogado <span>Herencias</span> Barcelona
+    </div>
+    <a href="tel:684233275" class="callbar-btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span class="btn-text">684 23 32 75</span>
+    </a>
+  </div>
+</div>
+
+<!-- Hero -->
+<header class="hero">
+  <svg class="hero-watermark" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="0.5"/><circle cx="50" cy="50" r="39" fill="none" stroke="currentColor" stroke-width="0.3"/><g stroke="currentColor" stroke-width="0.5"><line x1="50" y1="5" x2="50" y2="11" transform="rotate(0 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(22.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(45 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(67.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(90 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(112.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(135 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(157.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(180 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(202.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(225 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(247.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(270 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(292.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(315 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(337.5 50 50)"/></g><g stroke="currentColor" stroke-width="0.55" fill="none" stroke-linecap="round"><path d="M35 26 v40 M65 26 v40"/><path d="M30 26 h10 M60 26 h10"/><path d="M35 66 h-8 M35 66 h8 M65 66 h-8 M65 66 h8"/><circle cx="50" cy="46" r="9" fill="none"/></g></svg>
+  <div class="wrap hero-content">
+    <div class="eyebrow">Expertos en herencias · Barcelona</div>
+    <h1>Abogado<br><em>Herencias</em><br>Barcelona</h1>
+    <p class="hero-sub">Aceptación, partición e impuesto de sucesiones, y derivación a abogado colegiado colaborador para los casos que lo requieren. Le atendemos hoy mismo, sin compromiso.</p>
+
+    <div class="hero-actions">
+      <a href="tel:684233275" class="call-cta">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>
+          <span class="label">Llame ahora — primera consulta gratuita</span>
+          <span class="num">684 23 32 75</span>
+        </span>
+      </a>
+      <div class="hero-note">Horario de atención: <strong>Todos los días, 7:00–23:00</strong></div>
+    </div>
+  </div>
+
+  <div class="trust">
+    <div class="wrap">
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6z"/></svg>
+        <span>Abogado colegiado <b>colaborador</b></span>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+        <span><b>Respuesta en 24h</b> garantizada</span>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+        <span><b>+15 años</b> en derecho de sucesiones</span>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h1m4 0h1m-6 4h1m4 0h1"/></svg>
+        <span>Despacho en <b>Barcelona centro</b></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Practice areas -->
+<section id="areas">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="kicker">Áreas de práctica</div>
+      <h2>Herencias, sin bloqueos ni sorpresas.</h2>
+      <p class="section-lead">Acompañamos a familias y herederos en cada trámite, con o sin testamento, con o sin conflicto entre las partes.</p>
+    </div>
+    <div class="areas reveal">
+      <div class="area">
+        <span class="area-num">Redacción directa</span>
+        <h3>Aceptación de herencia</h3>
+        <p>Preparamos la documentación para aceptar la herencia, pura y simple o a beneficio de inventario, según convenga a su caso.</p>
+      </div>
+      <div class="area">
+        <span class="area-num">Redacción directa</span>
+        <h3>Cuaderno particional</h3>
+        <p>Elaboramos la partición y adjudicación de bienes entre herederos, lista para firmar ante notario.</p>
+      </div>
+      <div class="area">
+        <span class="area-num">Redacción directa</span>
+        <h3>Impuesto de sucesiones</h3>
+        <p>Gestionamos la liquidación del impuesto de sucesiones y donaciones dentro de plazo, evitando recargos innecesarios.</p>
+      </div>
+      <div class="area">
+        <span class="area-num">Vía abogado colaborador</span>
+        <h3>Declaración de herederos</h3>
+        <p>Cuando no hay testamento, coordinamos con nuestro abogado colegiado colaborador el procedimiento de declaración de herederos.</p>
+      </div>
+      <div class="area">
+        <span class="area-num">Vía abogado colaborador</span>
+        <h3>Impugnación de testamento</h3>
+        <p>Disputas sobre la validez o el contenido del testamento, derivadas a nuestro abogado colegiado colaborador.</p>
+      </div>
+      <div class="area">
+        <span class="area-num">Vía abogado colaborador</span>
+        <h3>Reclamación de legítima</h3>
+        <p>Cuando un heredero reclama su legítima por vía judicial, el asunto lo lleva el abogado colegiado con el que trabajamos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Process + quote -->
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="kicker">Cómo trabajamos</div>
+      <h2>De la llamada al reparto de la herencia.</h2>
+    </div>
+    <div class="process-wrap">
+      <ul class="steps reveal">
+        <li class="step">
+          <span class="step-mark">01</span>
+          <div>
+            <h4>Llamada inicial gratuita</h4>
+            <p>Nos explica la situación de la herencia y le decimos, sin compromiso, cómo podemos ayudarle.</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step-mark">02</span>
+          <div>
+            <h4>Revisión de documentos</h4>
+            <p>Estudiamos el testamento (o su ausencia), el certificado de defunción y el de últimas voluntades.</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step-mark">03</span>
+          <div>
+            <h4>Gestión y trámites</h4>
+            <p>Preparamos la aceptación, la partición y la liquidación de impuestos, o coordinamos con el abogado colaborador si el caso lo requiere.</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step-mark">04</span>
+          <div>
+            <h4>Entrega de la herencia</h4>
+            <p>Cerramos el expediente y los herederos quedan con la titularidad de los bienes correctamente inscrita.</p>
+          </div>
+        </li>
+      </ul>
+
+      <div class="callout-card reveal">
+        <p>Mi padre falleció sin testamento y no sabíamos por dónde empezar. En poco más de un mes teníamos la herencia aceptada y liquidada, sin sorpresas.</p>
+        <div class="who">— Heredera, Barcelona</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Banner CTA -->
+<div class="banner">
+  <div class="wrap">
+    <h3 class="reveal">No deje que los plazos del impuesto de sucesiones se le echen encima.</h3>
+    <a href="tel:684233275" class="banner-call">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>
+        <span class="label">Llamar ahora</span>
+        <span class="num">684 23 32 75</span>
+      </span>
+    </a>
+  </div>
+</div>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="kicker">Preguntas frecuentes</div>
+      <h2>Antes de llamar.</h2>
+    </div>
+    <div class="faq-list reveal">
+      <details class="faq-item">
+        <summary>¿Cuánto tiempo tengo para liquidar el impuesto de sucesiones?<span class="faq-mark"></span></summary>
+        <p>En Cataluña el plazo general es de seis meses desde el fallecimiento, prorrogable una vez si se solicita a tiempo. Conviene no esperar al último momento.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Qué pasa si no hay testamento?</summary>
+        <p>Se abre un procedimiento de declaración de herederos para determinar quiénes heredan según la ley. Es uno de los trámites que coordinamos con nuestro abogado colegiado colaborador.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Necesito abogado si no hay conflicto entre herederos?<span class="faq-mark"></span></summary>
+        <p>No siempre. Muchos trámites de aceptación, partición y liquidación de impuestos se pueden gestionar sin necesidad de un abogado colegiado; le decimos desde el primer momento qué necesita su caso concreto.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Cómo se calculan los honorarios?<span class="faq-mark"></span></summary>
+        <p>Depende del trámite: presupuesto cerrado para gestión documental y fiscal, u hoja de encargo específica si el caso pasa al abogado colaborador. Se lo detallamos antes de empezar.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- Transparency disclosure -->
+<section id="transparencia">
+  <div class="wrap">
+    <div class="kicker reveal">Cómo funciona este servicio</div>
+    <div class="disclosure reveal">
+      <p>
+        <strong>Abogado Herencias Barcelona</strong> es un servicio de gestión e intermediación, no un despacho de abogados. La tramitación de la aceptación de herencia, la partición de bienes y la liquidación del impuesto de sucesiones las realiza nuestro equipo interno, y no requieren colegiación para prestarse. Para los asuntos que legalmente requieren la intervención de un abogado colegiado —declaración de herederos, impugnación de testamento, litigios entre herederos—, derivamos el caso a un abogado colegiado colaborador especializado en sucesiones, con quien mantenemos un acuerdo de colaboración. Se lo indicaremos siempre que su caso pase a sus manos.
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-inner">
+    <div class="brand">
+      <svg class="crest" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="width:22px;height:22px;"><circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="50" cy="50" r="39" fill="none" stroke="currentColor" stroke-width="0.7"/><g stroke="currentColor" stroke-width="1.1" fill="none" stroke-linecap="round"><path d="M35 26 v40 M65 26 v40"/><path d="M30 26 h10 M60 26 h10"/><path d="M35 66 h-8 M35 66 h8 M65 66 h-8 M65 66 h8"/><circle cx="50" cy="46" r="9" fill="none"/></g></svg>
+      Abogado <span style="color:var(--gold-light); font-style:italic; font-weight:400;">Herencias</span> Barcelona
+    </div>
+    <div class="foot-note">684 23 32 75 · Barcelona, España</div>
+  </div>
+</footer>
+
+<!-- Mobile fixed call button -->
+<a href="tel:684233275" class="mobile-call">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  Llamar: 684 23 32 75
+</a>
+
+<script>
+  (function(){
+    var els = document.querySelectorAll('.reveal');
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) {
+      els.forEach(function(el){ el.classList.add('in-view'); });
+      return;
+    }
+    var obs = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          obs.unobserve(entry.target);
+        }
+      });
+    }, {threshold:0.12});
+    els.forEach(function(el){ obs.observe(el); });
+  })();
+</script>
+
+</body>
+</html>
