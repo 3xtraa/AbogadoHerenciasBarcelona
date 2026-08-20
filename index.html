@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Abogado Herencias Barcelona | Expertos | 684 23 32 75</title>
+<title>Abogado Herencias Barcelona | Expertos | 936 94 25 08</title>
 <style>
   :root{
     --ink:#0A0F1A;
@@ -81,6 +81,26 @@
   }
   .callbar-btn:hover{background:var(--gold-light); transform:translateY(-1px);}
   .callbar-btn svg{width:15px; height:15px; flex-shrink:0;}
+  .callbar-actions{display:flex; align-items:center; gap:10px;}
+  .wa-icon-btn{
+    display:flex; align-items:center; justify-content:center;
+    width:38px; height:38px;
+    border:1px solid var(--line);
+    color:var(--gold-light);
+    transition:border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+    flex-shrink:0;
+  }
+  .wa-icon-btn:hover{border-color:var(--gold-light); color:var(--paper); transform:translateY(-1px);}
+  .wa-icon-btn svg{width:18px; height:18px;}
+  .wa-link{
+    display:inline-flex; align-items:center; gap:8px;
+    font-size:13.5px; color:var(--text-soft);
+    border-bottom:1px solid var(--line);
+    padding-bottom:2px;
+    transition:color 0.2s ease, border-color 0.2s ease;
+  }
+  .wa-link:hover{color:var(--paper); border-color:var(--gold-light);}
+  .wa-link svg{width:16px; height:16px; color:var(--gold-light); flex-shrink:0;}
 
   /* Hero */
   .hero{
@@ -260,8 +280,8 @@
   .foot-inner .brand{font-size:15px;}
   .foot-note{font-size:13px; color:var(--text-soft);}
 
-  /* Mobile call button */
-  .mobile-call{display:none;}
+  /* Mobile call/whatsapp bar */
+  .mobile-bar{display:none;}
 
   @media (max-width:860px){
     .areas{grid-template-columns:1fr;}
@@ -277,14 +297,22 @@
     .trust .wrap{flex-direction:column;}
     .trust-item{border-right:none; border-bottom:1px solid var(--line-soft); padding:10px 0; margin-right:0; width:100%;}
     .trust-item:last-child{border-bottom:none;}
-    .mobile-call{
+    .mobile-bar{
       display:flex; position:fixed; bottom:0; left:0; right:0; z-index:99;
-      background:var(--gold); color:var(--ink);
-      padding:16px 20px; align-items:center; justify-content:center; gap:10px;
-      font-weight:700; font-size:16.5px;
       box-shadow:0 -8px 30px rgba(0,0,0,0.35);
     }
-    .mobile-call svg{width:19px; height:19px;}
+    .mobile-bar .mobile-call{
+      flex:1; display:flex; align-items:center; justify-content:center; gap:9px;
+      background:var(--gold); color:var(--ink);
+      padding:16px 12px; font-weight:700; font-size:15.5px;
+    }
+    .mobile-bar .mobile-call svg{width:18px; height:18px;}
+    .mobile-bar .mobile-wa{
+      width:58px; display:flex; align-items:center; justify-content:center;
+      background:var(--ink-2); color:var(--gold-light);
+      border-left:1px solid var(--line);
+    }
+    .mobile-bar .mobile-wa svg{width:22px; height:22px;}
     body{padding-bottom:64px;}
   }
 
@@ -300,10 +328,15 @@
       <svg class="crest" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="50" cy="50" r="39" fill="none" stroke="currentColor" stroke-width="0.7"/><g stroke="currentColor" stroke-width="1.1"><line x1="50" y1="5" x2="50" y2="11" transform="rotate(0 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(22.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(45 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(67.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(90 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(112.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(135 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(157.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(180 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(202.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(225 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(247.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(270 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(292.5 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(315 50 50)"/><line x1="50" y1="5" x2="50" y2="11" transform="rotate(337.5 50 50)"/></g><g stroke="currentColor" stroke-width="1.1" fill="none" stroke-linecap="round"><path d="M35 26 v40 M65 26 v40" stroke-width="1.1"/><path d="M30 26 h10 M60 26 h10" stroke-width="1.1"/><path d="M35 66 h-8 M35 66 h8 M65 66 h-8 M65 66 h8" stroke-width="1.1"/><circle cx="50" cy="46" r="9" fill="none" stroke-width="1"/></g></svg>
       Abogado <span>Herencias</span> Barcelona
     </div>
-    <a href="tel:684233275" class="callbar-btn">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-      <span class="btn-text">684 23 32 75</span>
-    </a>
+    <div class="callbar-actions">
+      <a href="https://wa.me/34644415819" target="_blank" rel="noopener" class="wa-icon-btn" aria-label="Escribir por WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.28-1.38a9.9 9.9 0 0 0 4.76 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.13-2.9-7C17.18 3.03 14.7 2 12.04 2zm5.8 14.1c-.24.68-1.4 1.3-1.93 1.38-.5.08-1.12.11-1.8-.11a17.2 17.2 0 0 1-1.7-.63c-3-1.3-4.95-4.32-5.1-4.52-.15-.2-1.22-1.62-1.22-3.1 0-1.47.77-2.19 1.05-2.49.27-.3.6-.37.8-.37h.57c.18 0 .43-.07.67.51.24.6.83 2.06.9 2.21.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.44.52-.15.15-.3.31-.13.6.17.3.77 1.27 1.65 2.05 1.14 1.02 2.1 1.33 2.4 1.48.3.15.47.13.65-.08.17-.2.75-.87.95-1.17.2-.3.4-.24.66-.15.27.1 1.72.81 2.02.96.3.15.5.22.57.35.07.13.07.75-.17 1.44z"/></svg>
+      </a>
+      <a href="tel:936942508" class="callbar-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span class="btn-text">936 94 25 08</span>
+      </a>
+    </div>
   </div>
 </div>
 
@@ -316,14 +349,18 @@
     <p class="hero-sub">Aceptación, partición e impuesto de sucesiones, y derivación a abogado colegiado colaborador para los casos que lo requieren. Le atendemos hoy mismo, sin compromiso.</p>
 
     <div class="hero-actions">
-      <a href="tel:684233275" class="call-cta">
+      <a href="tel:936942508" class="call-cta">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         <span>
           <span class="label">Llame ahora — primera consulta gratuita</span>
-          <span class="num">684 23 32 75</span>
+          <span class="num">936 94 25 08</span>
         </span>
       </a>
       <div class="hero-note">Horario de atención: <strong>Todos los días, 7:00–23:00</strong></div>
+      <a href="https://wa.me/34644415819" target="_blank" rel="noopener" class="wa-link">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.28-1.38a9.9 9.9 0 0 0 4.76 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.13-2.9-7C17.18 3.03 14.7 2 12.04 2zm5.8 14.1c-.24.68-1.4 1.3-1.93 1.38-.5.08-1.12.11-1.8-.11a17.2 17.2 0 0 1-1.7-.63c-3-1.3-4.95-4.32-5.1-4.52-.15-.2-1.22-1.62-1.22-3.1 0-1.47.77-2.19 1.05-2.49.27-.3.6-.37.8-.37h.57c.18 0 .43-.07.67.51.24.6.83 2.06.9 2.21.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.44.52-.15.15-.3.31-.13.6.17.3.77 1.27 1.65 2.05 1.14 1.02 2.1 1.33 2.4 1.48.3.15.47.13.65-.08.17-.2.75-.87.95-1.17.2-.3.4-.24.66-.15.27.1 1.72.81 2.02.96.3.15.5.22.57.35.07.13.07.75-.17 1.44z"/></svg>
+        Escríbenos por WhatsApp
+      </a>
     </div>
   </div>
 
@@ -443,11 +480,11 @@
 <div class="banner">
   <div class="wrap">
     <h3 class="reveal">No deje que los plazos del impuesto de sucesiones se le echen encima.</h3>
-    <a href="tel:684233275" class="banner-call">
+    <a href="tel:936942508" class="banner-call">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
       <span>
         <span class="label">Llamar ahora</span>
-        <span class="num">684 23 32 75</span>
+        <span class="num">936 94 25 08</span>
       </span>
     </a>
   </div>
@@ -499,15 +536,20 @@
       <svg class="crest" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="width:22px;height:22px;"><circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="50" cy="50" r="39" fill="none" stroke="currentColor" stroke-width="0.7"/><g stroke="currentColor" stroke-width="1.1" fill="none" stroke-linecap="round"><path d="M35 26 v40 M65 26 v40"/><path d="M30 26 h10 M60 26 h10"/><path d="M35 66 h-8 M35 66 h8 M65 66 h-8 M65 66 h8"/><circle cx="50" cy="46" r="9" fill="none"/></g></svg>
       Abogado <span style="color:var(--gold-light); font-style:italic; font-weight:400;">Herencias</span> Barcelona
     </div>
-    <div class="foot-note">684 23 32 75 · Barcelona, España</div>
+    <div class="foot-note">936 94 25 08 · Barcelona, España</div>
   </div>
 </footer>
 
-<!-- Mobile fixed call button -->
-<a href="tel:684233275" class="mobile-call">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-  Llamar: 684 23 32 75
-</a>
+<!-- Mobile fixed call + whatsapp bar -->
+<div class="mobile-bar">
+  <a href="tel:936942508" class="mobile-call">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    Llamar: 936 94 25 08
+  </a>
+  <a href="https://wa.me/34644415819" target="_blank" rel="noopener" class="mobile-wa" aria-label="Escribir por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.28-1.38a9.9 9.9 0 0 0 4.76 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.13-2.9-7C17.18 3.03 14.7 2 12.04 2zm5.8 14.1c-.24.68-1.4 1.3-1.93 1.38-.5.08-1.12.11-1.8-.11a17.2 17.2 0 0 1-1.7-.63c-3-1.3-4.95-4.32-5.1-4.52-.15-.2-1.22-1.62-1.22-3.1 0-1.47.77-2.19 1.05-2.49.27-.3.6-.37.8-.37h.57c.18 0 .43-.07.67.51.24.6.83 2.06.9 2.21.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.44.52-.15.15-.3.31-.13.6.17.3.77 1.27 1.65 2.05 1.14 1.02 2.1 1.33 2.4 1.48.3.15.47.13.65-.08.17-.2.75-.87.95-1.17.2-.3.4-.24.66-.15.27.1 1.72.81 2.02.96.3.15.5.22.57.35.07.13.07.75-.17 1.44z"/></svg>
+  </a>
+</div>
 
 <script>
   (function(){
